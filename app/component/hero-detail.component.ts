@@ -16,5 +16,6 @@ import { Hero } from '../model/hero';
     `
 })
 export class HeroDetailComponent {
-
+    @Input()
+    hero: Hero;
 }
